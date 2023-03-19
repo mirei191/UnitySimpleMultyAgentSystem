@@ -310,7 +310,7 @@ Transform:
   m_GameObject: {fileID: 806336470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -328,10 +328,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509d2c7d61e458c489562e55837a1de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberAgentA: 30
-  numberAgentB: 15
-  prefabAgentA: {fileID: 2507819762708569583, guid: fabe653b79875ee459bc0d989f322f6a, type: 3}
-  prefabAgentB: {fileID: 1950603545131569921, guid: da51b5c9300600b4f9900ca1870a7c63, type: 3}
+  numberAgentA: 20
+  numberAgentB: 30
+  numberAgentC: 10
+  prefabAgentA: {fileID: 4545609273738485719, guid: da51b5c9300600b4f9900ca1870a7c63, type: 3}
+  prefabAgentB: {fileID: 7070685145472397869, guid: fabe653b79875ee459bc0d989f322f6a, type: 3}
+  prefabAgentC: {fileID: 2964268849437889462, guid: 53bd92749460cdc48a4928c0e0dcbcbb, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,11 +410,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.20263626, y: 0.0015253338, z: 0.0073710657, w: 0.97922516}
+  m_LocalPosition: {x: -1.6, y: 21.5, z: -44.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.38, y: 0.373, z: 0.94}

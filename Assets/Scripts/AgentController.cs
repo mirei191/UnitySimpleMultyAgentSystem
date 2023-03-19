@@ -6,9 +6,11 @@ public class AgentController : MonoBehaviour
 {
     public int numberAgentA;
     public int numberAgentB;
+    public int numberAgentC;
 
     public GameObject prefabAgentA;
     public GameObject prefabAgentB;
+    public GameObject prefabAgentC;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,13 @@ public class AgentController : MonoBehaviour
             GameObject instanceAgentB = (GameObject)Instantiate(prefabAgentB);
             instanceAgentB.transform.position = new Vector3(Random.Range(-size.x * 10f, size.x * 10f), 0, Random.Range(-size.z * 10f, size.z * 10f));
         }
+
+        for (int i = 0; i < numberAgentC; i++)
+        {
+            GameObject instanceAgentC = (GameObject)Instantiate(prefabAgentC);
+            instanceAgentC.transform.position = new Vector3(Random.Range(-size.x * 10f, size.x * 10f), 0, Random.Range(-size.z * 10f, size.z * 10f));
+        }
+
     }
 
     // Update is called once per frame
